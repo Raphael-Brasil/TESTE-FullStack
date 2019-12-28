@@ -8,7 +8,8 @@
     <script src="angularjs/angular.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- Font Awesome -->
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
     <title>TESTE – VAGA DE DESENVOLVEDOR FULL-STACK</title>
   </head>
   <body>
@@ -26,6 +27,11 @@
     <div class="col">Column</div>
   </div>
 </div>
+<i class="fas fa-user"></i> <!-- uses solid style -->
+  <i class="far fa-user"></i> <!-- uses regular style -->
+  <i class="fal fa-user"></i> <!-- uses light style -->
+  <!--brand icon-->
+  <i class="fab fa-github-square"></i> <!-- uses brands style -->
     
 
     <!-- Optional JavaScript -->

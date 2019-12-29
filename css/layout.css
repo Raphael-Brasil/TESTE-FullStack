@@ -5,10 +5,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    margin-top: 1%;
+    margin-top: 0.5%;
 }
 .Title{
     color: #f4fbfb;
     text-align: center; 
+    text-transform: uppercase;
     padding: 2px;
+
+}
+.iconbk{
+    width: auto;
+    height: 9rem;
+    text-align: center;
+    color:#f4fbfb;
+    padding-top: 5%;
 }

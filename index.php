@@ -21,13 +21,14 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Header</div>
+  ">Primeiro</div>
+  <div class="iconbk" style="            
+          background-color: #0D0133;
+       ">
   <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+            font-size: 7rem; 
   "></i>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -38,14 +39,16 @@
     <div class="col">    
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
-  background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
-  "></i>
+  background-color: #5C099C;
+  ">Segundo</div>
+  <div class="iconbk" style="            
+          background-color: #433D5A;
+       ">
+  <i class="fas fa-certificate" style="
+  font-size: 7rem; 
+  ">  
+    </i>
+</div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -56,14 +59,15 @@
     <div class="col">    
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
-  background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+  background-color: #5C099C;
+  ">Terceiro</div>
+  <div class="iconbk" style="            
+          background-color: #4C4551;
+       ">
+  <i class="fas fa-clipboard-list" style="
+  font-size: 7rem; 
   "></i>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -74,14 +78,15 @@
     <div class="col">    
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
-  background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+  background-color: #5C099C;
+  ">Quarto</div>
+  <div class="iconbk" style="            
+          background-color: #8E6127;
+       ">
+  <i class="far fa-bookmark" style="
+  font-size: 7rem;
   "></i>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,14 +99,34 @@
     <div class="col">    
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
-  background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+  background-color: #63842B;
+  ">Quinto</div>
+ <div class="iconbk" style="            
+          background-color: #DA5E00;
+       ">
+  <i class="fab fa-jenkins" style="
+  font-size: 7rem;
   "></i>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #DA5E00;
+  ">Sexto</div>
+  <div class="iconbk" style="            
+          background-color: #7C7B7A;
+       ">
+  <i class="fas fa-hands-helping" style="
+  font-size: 7rem;
+  "></i>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,13 +138,14 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+  ">Sétimo</div>
+  <div class="iconbk" style="            
+          background-color: #00A2FF;
+       ">
+  <i class="far fa-file" style="
+  font-size: 7rem;
   "></i>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,31 +157,14 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
+  ">Oitavo</div>
+<div class="iconbk" style="            
+          background-color: #050962;
+       ">
+  <i class="fas fa-shoe-prints" style="
+  font-size: 7rem;
   "></i>
-  <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
   </div>
-</div>    
-    </div>
-    <div class="col">    
-    <div class="card bg-light mb-3" style="max-width: 18rem;">
-  <div class="Title"  style="
-  background-color: #5A29FD;
-  ">Header</div>
-  <i class="far fa-check-square" style="
-  font-size: 10rem; 
-  background-color: #0D0133;
-  text-align: center;
-  color: white;
-  "></i>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

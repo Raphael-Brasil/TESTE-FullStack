@@ -39,12 +39,12 @@ body{
     float: left;
     height: 3rem;
 }
-.btn{
+.btn1{
     width:  100%;
     float: left;
     background-color: #77CE4C;
     color: #f4fbfb;
 }
-.btn:hover{
+.btn1:hover{
     border: 1px solid #469B1C;
 }

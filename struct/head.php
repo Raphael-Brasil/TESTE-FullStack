@@ -11,6 +11,7 @@
     <link href="/fontawesome/css/all.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/layout2.css">
     <title>TESTE – VAGA DE DESENVOLVEDOR FULL-STACK</title>
   </head>
   <body>

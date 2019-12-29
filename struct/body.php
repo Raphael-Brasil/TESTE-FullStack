@@ -20,7 +20,7 @@
   <div class="card-body">
     <h5 class="card-title">Checkin & Checkout</h5>
     <p class="card-text">+ R$ X por colaborador por mês</p>
-    <a href="#" class="btn">Contratar</a>
+    <a href="/1" class="btn btn1">Contratar</a>
   </div>
 </div>    
     </div>
@@ -42,7 +42,7 @@
   <div class="card-body">
     <h5 class="card-title">Badges & Cards de Reconhecimento</h5>
     <p class="card-text">Gratuito</p>
-    <a href="#" class="btn">Ativar</a>
+    <a href="/2" class="btn btn1">Ativar</a>
   </div>
 </div>    
     </div>
@@ -63,7 +63,7 @@
   <div class="card-body">
     <h5 class="card-title">Planos de ação</h5>
     <p class="card-text">Gratuito</p>
-    <a href="#" class="btn">Ativar</a>
+    <a href="/3" class="btn btn1">Ativar</a>
   </div>
 </div>    
     </div>
@@ -85,7 +85,7 @@
   <div class="card-body">
     <h5 class="card-title">Recomendações de Conteúdo sob medida</h5>
     <p class="card-text"> + R$ X por colaborador por mês</p>
-    <a href="#" class="btn">Contratar</a>
+    <a href="/4" class="btn btn1">Contratar</a>
   </div>
 </div>    
     </div>
@@ -111,7 +111,7 @@
   <div class="card-body">
     <h5 class="card-title">Fitting Cultural</h5>
     <p class="card-text"> + R$ X por colaborador por mês</p>
-    <a href="#" class="btn">Contratar</a>
+    <a href="/5" class="btn btn1">Contratar</a>
   </div>
 </div>    
     </div>
@@ -132,7 +132,7 @@
   <div class="card-body">
     <h5 class="card-title">Assessments e Recomendações</h5>
     <p class="card-text"> Gratuito </p>
-    <a href="#" class="btn">Ativar</a>
+    <a href="/6" class="btn btn1">Ativar</a>
   </div>
 </div>    
     </div>
@@ -153,7 +153,7 @@
   <div class="card-body">
     <h5 class="card-title">Quick Deck</h5>
     <p class="card-text"> + R$ X por colaborador por mês</p>
-    <a href="#" class="btn">Contratar</a>
+    <a href="/7" class="btn btn1">Contratar</a>
   </div>
 </div>    
     </div>
@@ -174,7 +174,7 @@
   <div class="card-body">
     <h5 class="card-title">Evidências & Feedback</h5>
     <p class="card-text"> + R$ X por colaborador por mês</p>
-    <a href="#" class="btn">Contratar</a>
+    <a href="/8" class="btn btn1">Contratar</a>
   </div>
 </div>    
     </div>

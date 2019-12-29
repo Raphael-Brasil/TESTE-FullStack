@@ -12,7 +12,9 @@ body{
     text-align: center; 
     text-transform: uppercase;
     padding: 2px;
-
+}
+.card{
+    height: 22rem;
 }
 .iconbk{
     width: auto;
@@ -20,4 +22,29 @@ body{
     text-align: center;
     color:#f4fbfb;
     padding-top: 5%;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-title{
+    width: 100%;
+    float: left;
+    height: 3rem;
+}
+.card-text{
+    width:  100%;
+    float: left;
+    height: 3rem;
+}
+.btn{
+    width:  100%;
+    float: left;
+    background-color: #77CE4C;
+    color: #f4fbfb;
+}
+.btn:hover{
+    border: 1px solid #469B1C;
 }

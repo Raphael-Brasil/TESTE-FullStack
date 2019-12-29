@@ -21,7 +21,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Primeiro</div>
+  ">Performance</div>
   <div class="iconbk" style="            
           background-color: #0D0133;
        ">
@@ -30,9 +30,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Checkin & Checkout</h5>
+    <p class="card-text">+ R$ X por colaborador por mês</p>
+    <a href="#" class="btn">Contratar</a>
   </div>
 </div>    
     </div>
@@ -40,7 +40,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5C099C;
-  ">Segundo</div>
+  ">Engajamento</div>
   <div class="iconbk" style="            
           background-color: #433D5A;
        ">
@@ -50,9 +50,9 @@
     </i>
 </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Badges & Cards de Reconhecimento</h5>
+    <p class="card-text">Gratuito</p>
+    <a href="#" class="btn">Ativar</a>
   </div>
 </div>    
     </div>
@@ -60,7 +60,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5C099C;
-  ">Terceiro</div>
+  ">Engajamento</div>
   <div class="iconbk" style="            
           background-color: #4C4551;
        ">
@@ -69,9 +69,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Planos de ação</h5>
+    <p class="card-text">Gratuito</p>
+    <a href="#" class="btn">Ativar</a>
   </div>
 </div>    
     </div>
@@ -79,7 +79,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5C099C;
-  ">Quarto</div>
+  ">Engajamento</div>
   <div class="iconbk" style="            
           background-color: #8E6127;
        ">
@@ -88,9 +88,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Recomendações de Conteúdo sob medida</h5>
+    <p class="card-text"> + R$ X por colaborador por mês</p>
+    <a href="#" class="btn">Contratar</a>
   </div>
 </div>    
     </div>
@@ -100,7 +100,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #63842B;
-  ">Quinto</div>
+  ">Cultura</div>
  <div class="iconbk" style="            
           background-color: #DA5E00;
        ">
@@ -109,9 +109,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Fitting Cultural</h5>
+    <p class="card-text"> + R$ X por colaborador por mês</p>
+    <a href="#" class="btn">Contratar</a>
   </div>
 </div>    
     </div>
@@ -119,7 +119,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #DA5E00;
-  ">Sexto</div>
+  ">Relações</div>
   <div class="iconbk" style="            
           background-color: #7C7B7A;
        ">
@@ -128,9 +128,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Assessments e Recomendações</h5>
+    <p class="card-text"> Gratuito </p>
+    <a href="#" class="btn">Ativar</a>
   </div>
 </div>    
     </div>
@@ -138,7 +138,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Sétimo</div>
+  ">Perfomance</div>
   <div class="iconbk" style="            
           background-color: #00A2FF;
        ">
@@ -147,9 +147,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Quick Deck</h5>
+    <p class="card-text"> + R$ X por colaborador por mês</p>
+    <a href="#" class="btn">Contratar</a>
   </div>
 </div>    
     </div>
@@ -157,7 +157,7 @@
     <div class="card bg-light mb-3" style="max-width: 18rem;">
   <div class="Title"  style="
   background-color: #5A29FD;
-  ">Oitavo</div>
+  ">Perfomance</div>
 <div class="iconbk" style="            
           background-color: #050962;
        ">
@@ -166,9 +166,9 @@
   "></i>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+    <h5 class="card-title">Evidências & Feedback</h5>
+    <p class="card-text"> + R$ X por colaborador por mês</p>
+    <a href="#" class="btn">Contratar</a>
   </div>
 </div>    
     </div>

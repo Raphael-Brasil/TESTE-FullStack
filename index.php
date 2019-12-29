@@ -10,46 +10,161 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/layout.css">
     <title>TESTE – VAGA DE DESENVOLVEDOR FULL-STACK</title>
   </head>
   <body>
-  <div>
-    <label>Teste: </label>
-    <input type="text" ng-model="yourName" placegolder="Enter a name here">
-    <hr>
-    <h1>Hello {{yourName}}!</h1>
-  </div>
   <div class="container">
-  <div class="row row-cols-3">
-    <div class="col">Column</div>
-    <div class="col">{{yourName}}</div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
+  <div class="row">
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
+    <div class="col">    
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+  <div class="Title"  style="
+  background-color: #5A29FD;
+  ">Header</div>
+  <i class="far fa-check-square" style="
+  font-size: 10rem; 
+  background-color: #0D0133;
+  text-align: center;
+  color: white;
+  "></i>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <center><a href="#" class="btn btn-primary">Go somewhere</a></center>
+  </div>
+</div>    
+    </div>
   </div>
 </div>
-<i class="fas fa-user"></i> <!-- uses solid style -->
-  <i class="far fa-user"></i> <!-- uses regular style -->
-  <i class="fal fa-user"></i> <!-- uses light style -->
-  <!--brand icon-->
-  <i class="fab fa-github-square"></i> <!-- uses brands style -->
-
-  <?php
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
-use Slim\Factory\AppFactory;
-
-require __DIR__ . '/vendor/autoload.php';
-
-$app = AppFactory::create();
-
-$app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello world!");
-    return $response;
-});
-
-$app->run();
-?>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

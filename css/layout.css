@@ -1,0 +1,14 @@
+body{
+    background: #f4fbfb;
+    font-size: 14px;    
+    -webkit-font-smoothing: antialiased !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 1%;
+}
+.Title{
+    color: #f4fbfb;
+    text-align: center; 
+    padding: 2px;
+}

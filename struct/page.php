@@ -1,4 +1,10 @@
   <!-- Corpo todo -->
+  <?php header('Content-Type: text/html; iso-8859-1');
+  $Page = $_POST['int'];
+  require(__DIR__.'/../connect.php');
+  $qryLista = mysqli_query($con, "SELECT * FROM modulos Where N_Mod = '$Page'");
+  while($resultado = mysqli_fetch_array($qryLista)){  
+  ?>
   <div class="container container2">
   <div class="row">  
   <div class="title"><h4>Módulo</h4></div>
@@ -6,18 +12,18 @@
   </div> 
   <div class="row"> 
   <div class="iconbkmodel" style="            
-          background-color: #0D0133;
+          background-color: <?php echo $resultado['Back_Cor']; ?>;
        ">
     <div class="Titlemodel"  style="
-  background-color: #5A29FD;
-  ">Performance</div>    
-  <i class="far fa-check-square" style="
+  background-color: <?php echo $resultado['Tit_Cor']; ?>;
+  "><?php echo $resultado['Tit_Mod']; ?></div>    
+  <i class="<?php echo $resultado['Sign_Mod']; ?>" style="
             font-size: 7rem; 
   "></i>
   </div>
-  <div class="descr"><h5 style="font-weight: bold;">Checkin & Checkout</h5>
-  <p>+ R$ X por colaborador por mês</p>
-  <a href="/" class="btn btn2">Contratar e ativar módulo</a>
+  <div class="descr"><h5 style="font-weight: bold;"><?php echo $resultado['Ref_Mod']; ?></h5>
+  <p><?php echo $resultado['Comm_mod']; ?></p>
+  <spam class="btn btn2" onclick="contratar(<?php echo $resultado['N_Mod']; ?>)"><?php echo $resultado['Stat_mod']; ?></spam>
   </div>
  
 </div>
@@ -33,4 +39,8 @@ Suspendisse fermentum leo justo, vitae vulputate dolor fringilla id. Vestibulum 
 eros arcu et leo.</p>        
   </div>  
 </div><!-- Div do corpo --> 
+
+<?php 
+  }
+?>
    

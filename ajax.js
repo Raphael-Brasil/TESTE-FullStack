@@ -1,6 +1,10 @@
 
-function acton(int, verification){
+function acton(int, verification, tip){
 if(verification==="Contratar"){
+tip="contratar";
+}else if(verification==="Ativar" || verification==="Desativar"){
+tip="charge";    
+}else{}
     $.ajax
     ({
         //Configurações
@@ -8,38 +12,33 @@ if(verification==="Contratar"){
         dataType: 'html',//É o tipo de dado que a página vai retornar.
         url: '/struct/page.php',//Indica a página que está sendo solicitada.
         data: {
-            int: int
-            },//Dados para consulta
-        //função que será executada quando a solicitação for finalizada.
-        success: function (msg)
-        {
-            $("#base").html(msg);
-        }
-    });
-}else{
-    $.ajax
-    ({
-        //Configurações
-        type: 'POST',//Método que está sendo utilizado.
-        dataType: 'html',//É o tipo de dado que a página vai retornar.
-        url: '/struct/charge.php',//Indica a página que está sendo solicitada.
-        data: {
             int: int,
-            verification: verification
+            verification: verification,
+            tip: tip
             },//Dados para consulta
         //função que será executada quando a solicitação for finalizada.
         success: function (msg)
         {
-            $("#Botao"+int).html(msg);
+            if(tip==="contratar"){
+                $("#base").html(msg);
+            }else if(tip==="charge"){
+                $("#Botao"+int).html(msg);
+            }else if(tip==="contet"){
+                $("#base").html(msg);
+            }else if(tip==="voltar"){
+                $("#base").html(msg);
+            }else{
+                alert("Ação inválida!");
+            }            
         }
     });
+
                
 }          
           
 
 
 
-}
 
 function preencher(registro, cortit, tit, corback, sign, ref, comm, stat)
 {
@@ -66,7 +65,7 @@ function preencher(registro, cortit, tit, corback, sign, ref, comm, stat)
                 {
                     var ConstruHTML;
                     
-                    ConstruHTML = '<div class="card bg-light mb-3" style="max-width: 18rem;"><div  div="'+registro+'" class="Title" style="background-color:'+cortit+';">'+tit+'</div><div class="iconbk" style="background-color: '+corback+';"><i class="'+sign+'" style="font-size: 7rem;"></i></div><div class="card-body"><h5 class="card-title">'+ref+'</h5><p class="card-text">'+comm+'</p><spam id="Botao'+registro+'"> <spam class="btn btn1" onclick="acton('+registro+',`'+stat+'`);">'+stat+'</spam></spam></div></div>';
+                    ConstruHTML = '<div class="card bg-light mb-3" style="max-width: 18rem;"><div  div="'+registro+'" class="Title" style="background-color:'+cortit+';">'+tit+'</div><div class="iconbk" style="background-color: '+corback+';"><i class="'+sign+'" style="font-size: 7rem;"></i></div><div class="card-body"><h5 class="card-title">'+ref+'</h5><p class="card-text">'+comm+'</p><spam id="Botao'+registro+'"> <spam class="btn btn1" onclick="acton('+registro+',`'+stat+'`, `coringa`);">'+stat+'</spam></spam></div></div>';
 
                     $("#col"+registro).html(ConstruHTML);
                 },
@@ -75,27 +74,5 @@ function preencher(registro, cortit, tit, corback, sign, ref, comm, stat)
                 }
             });
 }
-
-
-function contratar(registro)
-{
-    
-        $.ajax
-        ({
-            //Configurações
-            type: 'POST',//Método que está sendo utilizado.
-            dataType: 'html',//É o tipo de dado que a página vai retornar.
-            url: '/struct/contratar.php',//Indica a página que está sendo solicitada.
-            data: {
-                int: registro
-                },//Dados para consulta
-            //função que será executada quando a solicitação for finalizada.
-            success: function (msg)
-            {
-                $("#base").html(msg);
-            }
-        });
-    }
-        
 
   
